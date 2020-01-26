@@ -81,31 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/react.jsx");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var electron__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! electron */ \"electron\");\n/* harmony import */ var electron__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(electron__WEBPACK_IMPORTED_MODULE_0__);\n// src/electron.js\r\n//const { app, BrowserWindow } = require('electron');\r\n \r\nfunction createWindow () {\r\n  // Create the browser window.\r\n  let win = new electron__WEBPACK_IMPORTED_MODULE_0__[\"BrowserWindow\"]({\r\n    width: 800,\r\n    height: 600,\r\n    webPreferences: {\r\n      nodeIntegration: true\r\n    }\r\n  });\r\n \r\n  // and load the index.html of the app.\r\n  win.loadFile('src/index.html');\r\n}\r\n \r\nelectron__WEBPACK_IMPORTED_MODULE_0__[\"app\"].on('ready', createWindow);\n\n//# sourceURL=webpack:///./src/index.js?");
-
-/***/ }),
-
-/***/ "electron":
-/*!***************************!*\
-  !*** external "electron" ***!
-  \***************************/
+/***/ "./src/react.jsx":
+/*!***********************!*\
+  !*** ./src/react.jsx ***!
+  \***********************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = require(\"electron\");\n\n//# sourceURL=webpack:///external_%22electron%22?");
+eval("throw new Error(\"Module parse failed: Unexpected token (6:11)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n|  \\n| const Index = () => {\\n>     return <div>Hello React!</div>;\\n| };\\n|  \");\n\n//# sourceURL=webpack:///./src/react.jsx?");
 
 /***/ })
 
